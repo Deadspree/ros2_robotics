@@ -3,6 +3,10 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 class MyNode(Node):
+    """
+    A simple ROS 2 node that demonstrate both publishing and subcribing
+
+    """
     def __init__(self):
         super().__init__('my_node')
 
